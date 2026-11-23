@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Đặng Anh Tiến</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">ĐAT.DEV</div>
+        <div class="menu">
+            <a href="index.html">Trang chủ</a>
+            <a href="about.html">Giới thiệu</a>
+            <a href="contact.html">Liên hệ</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Liên hệ với mình</h1>
+        <p>Kết nối qua Email, GitHub hoặc gửi lời nhắn trực tiếp</p>
+    </header>
+
+    <section>
+        <div class="project">
+            <p><strong>Họ tên:</strong> Đặng Anh Tiến (231A010532)</p>
+            <p><strong>Email:</strong> danganhtien21022005@gmail.com</p>
+            <p><strong>GitHub:</strong> https://github.com/danganhtien21022005-sys</p>
+        </div>
+
+        <form class="project contact-form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã gửi liên hệ cho Đặng Anh Tiến!');">
+            <h3>Gửi tin nhắn</h3>
+            <input type="text" placeholder="Tên của bạn" required>
+            <input type="email" placeholder="Email của bạn" required>
+            <textarea rows="4" placeholder="Nội dung lời nhắn..." required></textarea>
+            <button type="submit">Gửi ngay</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
